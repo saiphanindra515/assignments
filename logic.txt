@@ -1,0 +1,31 @@
+-----------------1st problem------------
+i used let keyword instead of var
+i used Arrow function.
+-----------------------------------------------------------------------
+--------------2 (a)----------------------------------------------------
+Q)Write a function that takes Season number and episode number as input
+and gives all the information about that particular episode as output.
+
+sol)from the question inputs are - season number and episode number
+i took inputs using window.prompt and stored in SeasonNumber and episodeNumber.
+i used for loop to iterate over episodes (it is an array of objects),
+at every iteration i checked seasonnumber and episodeNumber matching or not using if statement.when if statements holds true i used console.log to print that object.
+-----------------2 (b)---------------------------------------------------
+Q)Write a function that can take any number of episode ids as input and
+returns all the information about those episodes.
+
+sol)from the question inputs are - any number of episode ids..
+As we dont know the count of inputs i used while loop.
+inside loop i used window.prompt to take input.
+after  entering every input, i pushed it into array using push() method.
+loop ends when user clicks on cancel.(on clicking cancel , prompt window it returns null)
+using Rest values are passed.using spread values are stored in function.
+i used for loop to iterate over episodes array of objects,at every iteration i compared the ids and when id matches, i printed that object using console.log()
+------------------------3 (c)-----------------------------------------------------------------------
+Q)write a function to search episode by its name?
+
+from the question input is episodename.
+i took inputs using window.prompt and stored in EpisodeName
+i used for loop to iterate over episodes (array of objects)
+at every iteration i compared the input name with iteration object name using if statement.when condition holds console.log( ) prints the required object details
+
